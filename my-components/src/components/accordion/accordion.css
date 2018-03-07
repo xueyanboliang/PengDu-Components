@@ -1,0 +1,49 @@
+.pd-accordion{
+
+}
+.pd-accordion-item{
+    position: relative;
+}
+.pd-accordion-item:last-child{
+    margin-bottom: 0px;
+}
+
+.pd-btn-accordion{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 32px;
+    height: 40px;
+    line-height: 40px;
+    color: #000000;
+
+    background-color: #ffffff;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+
+.pd-ico{
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    transition: all 0.4s ease;
+    background-size: 14px 14px;
+
+    background-image: url('./right.png');
+}
+
+
+.pd-ico-open{
+    transform: rotate(90deg);
+}
+
+.pd-accordion-body{
+    transition: all 0.4s ease;
+    height: 0;
+    overflow: hidden;
+}
+.pd-accordion-body-inner{
+
+}

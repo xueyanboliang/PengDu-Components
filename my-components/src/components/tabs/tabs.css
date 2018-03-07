@@ -1,0 +1,41 @@
+.pd-tabs{
+    display: flex;
+    border-bottom: 3px solid #DDD8CE;
+    position: relative;
+}
+.pd-tab-item{
+    flex: 1;
+    display: block;
+    position: relative;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    color: #000000;
+}
+.pd-tab-item-active{
+    color: #3cc51f;
+}
+.pd-slide{
+    width: 50%;
+    height: 3px;
+    background-color: #3cc51f;
+    position: absolute;
+    bottom: -3px;
+}
+.pd-body{
+    overflow: hidden;
+}
+
+.pd-transition{
+    transition: all 0.4s ease;
+}
+.pd-body-content:after{
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+.pd-tab-panel{
+    float: left;
+}
